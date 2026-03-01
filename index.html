@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="fr" style="background-color:#0d0d0d;">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Paddock – Email confirmé</title>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700;800;900&family=Barlow:wght@400;500;600&display=swap" rel="stylesheet"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    html, body {
+      background-color: #0d0d0d;
+      min-height: 100vh;
+      font-family: 'Barlow', sans-serif;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .card {
+      background: #111111;
+      border: 1px solid #222222;
+      border-radius: 8px;
+      max-width: 480px;
+      width: 90%;
+      overflow: hidden;
+      text-align: center;
+    }
+    .stripe-top {
+      background: #E8364E;
+      height: 4px;
+    }
+    .content {
+      padding: 52px 40px 48px;
+    }
+    .logo {
+      width: 140px;
+      height: auto;
+      margin: 0 auto 36px;
+      display: block;
+    }
+    .divider {
+      border: none;
+      border-top: 1px solid #222;
+      margin-bottom: 36px;
+    }
+    .icon-wrap {
+      width: 72px;
+      height: 72px;
+      background: #1a1a1a;
+      border: 1px solid #2a2a2a;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 28px;
+    }
+    .label {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 12px;
+      font-weight: 700;
+      letter-spacing: 4px;
+      color: #E8364E;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 42px;
+      font-weight: 900;
+      color: #ffffff;
+      text-transform: uppercase;
+      line-height: 1.05;
+      letter-spacing: -0.5px;
+      margin-bottom: 20px;
+    }
+    h1 span { color: #E8364E; }
+    p {
+      font-size: 15px;
+      line-height: 1.7;
+      color: #888888;
+      margin-bottom: 36px;
+    }
+    .btn {
+      display: inline-block;
+      background: #E8364E;
+      color: #ffffff;
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 15px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 15px 36px;
+      border-radius: 3px;
+      margin-bottom: 36px;
+    }
+    .footer-divider {
+      display: flex;
+      align-items: center;
+      gap: 0;
+      margin-bottom: 24px;
+    }
+    .footer-divider-red {
+      width: 40px;
+      height: 2px;
+      background: #E8364E;
+      flex-shrink: 0;
+    }
+    .footer-divider-grey {
+      flex: 1;
+      height: 1px;
+      background: #1e1e1e;
+    }
+    .footer {
+      font-family: 'Barlow Condensed', sans-serif;
+      font-size: 13px;
+      font-weight: 800;
+      letter-spacing: 2px;
+      color: #333333;
+      text-transform: uppercase;
+      margin-bottom: 6px;
+    }
+    .footer-sub {
+      font-size: 12px;
+      color: #333333;
+      line-height: 1.5;
+    }
+    .stripe-bottom {
+      background: #E8364E;
+      height: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="stripe-top"></div>
+    <div class="content">
+
+      <img src="https://snpjjircgmvozgzbexcc.supabase.co/storage/v1/object/public/assets/logo-removebg-preview.png" alt="Paddock" class="logo" />
+      <hr class="divider" />
+
+      <div class="icon-wrap">
+        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#E8364E" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <polyline points="20 6 9 17 4 12"/>
+        </svg>
+      </div>
+
+      <p class="label">Adresse confirmée</p>
+      <h1>Tu es dans<br/>le <span>Paddock.</span></h1>
+      <p>Ton adresse email a bien été confirmée.<br/>Retourne sur l'application pour accéder à ton compte et rejoindre la communauté.</p>
+
+      <p style="font-size:14px;color:#555555;margin-bottom:36px;">Tu peux fermer cette page et retourner sur l'application Paddock.</p>
+
+      <div class="footer-divider">
+        <div class="footer-divider-red"></div>
+        <div class="footer-divider-grey"></div>
+      </div>
+
+      <p class="footer">PADDOCK</p>
+      <p class="footer-sub">Le réseau des passionnés de sport auto & moto.</p>
+
+    </div>
+    <div class="stripe-bottom"></div>
+  </div>
+</body>
+</html>
